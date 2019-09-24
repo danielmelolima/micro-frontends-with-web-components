@@ -1,0 +1,41 @@
+@font-face {
+  font-family: Rational-Light;
+  src: url(font/RationalDisplay-Light.otf) format("opentype");
+}
+
+@font-face {
+  font-family: Rational-Medium;
+  src: url(font/RationalDisplay-Medium.otf) format("opentype");
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+  font-family: 'Rational-Light';
+  margin: 0;
+  padding: 0;
+}
+
+.page-container {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.menu {
+  margin-top: 80px;
+  width: 400px;
+}
+
+.main {
+  margin-top: 80px;
+  width: 800px;
+  padding-left: 5px;
+  padding-right: 15px;
+}
+
+.header {
+  position: absolute;
+}
