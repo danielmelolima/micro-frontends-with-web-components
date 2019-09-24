@@ -1,0 +1,5 @@
+**/node_modules
+wc-angular/dist
+wc-react/dist
+wc-vue/dist
+.DS_STORE
