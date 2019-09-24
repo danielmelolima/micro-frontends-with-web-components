@@ -1,0 +1,22 @@
+<section class="menu-container">
+  <div class="menu-header">
+    <h2 class="menu-header-title">{{ selectedCategory?.name }}</h2>
+  </div>
+
+  <ul class="menu-itens">
+    <li
+      class="menu-item"
+      *ngFor="let photo of filteredPhotos"
+      [ngClass]="[photo.id === selectedPhoto?.id ? 'active' : '']"
+    >
+      <a (click)="selectPhoto(photo)">
+        <img [src]="photo.src" /> 
+        <div class="image-info-container">
+          <h3>{{ photo.title }}</h3>
+          <p>{{ photo.desc }}</p>
+          <p>{{ photo.views }} views</p>
+        </div>
+      </a>
+    </li>
+  </ul>
+</section>

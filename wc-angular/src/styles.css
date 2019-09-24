@@ -1,0 +1,13 @@
+@font-face {
+  font-family: Rational-Light;
+  src: url(assets/font/RationalDisplay-Light.otf) format("opentype");
+}
+
+@font-face {
+  font-family: Rational-Medium;
+  src: url(assets/font/RationalDisplay-Medium.otf) format("opentype");
+}
+
+body {
+  font-family: 'Rational-Light';
+}
